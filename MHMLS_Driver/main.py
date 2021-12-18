@@ -11,5 +11,4 @@ def main():
 
 while True:
     main()
-    time.sleep(100000000)
-    
+    time.sleep(604800)
