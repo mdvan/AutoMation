@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.firefox import firefox_profile
 from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
-from config import MLS_CONSUMER_ID, MLS_CONSUMER_PASS, CONSUMERS_EMAIL
+from config import MLS_USER_ID, MLS_USER_PASS, CONSUMERS_EMAIL
 import time
 
 def Foreclosed_Properties_MHMLS():
@@ -23,9 +23,9 @@ def Foreclosed_Properties_MHMLS():
 
     #Enters in Email and Pass
     EmailElement = browser.find_element_by_css_selector('input#MemberId')
-    EmailElement.send_keys(MLS_CONSUMER_ID)
+    EmailElement.send_keys(MLS_USER_ID)
     PassElement = browser.find_element_by_css_selector('input#MemberPassword')
-    PassElement.send_keys(MLS_CONSUMER_PASS)
+    PassElement.send_keys(MLS_USER_PASS)
 
     #Submits the Email and Pass
     time.sleep(2)
