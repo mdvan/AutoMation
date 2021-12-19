@@ -27,7 +27,6 @@ mock==3.0.5
 modulegraph==0.10.4
 more-itertools==5.0.0
 moviepy==1.0.3
-numpy==1.8.0rc1
 packaging==20.9
 pathlib2==2.3.6
 Pillow==6.2.2
