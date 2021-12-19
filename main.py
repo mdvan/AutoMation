@@ -10,5 +10,7 @@ def main():
     Foreclosed_Properties_MHMLS()
     txtself("Your Foreclosure Report is Ready, Look for an Email")
 
-main()
+if __name__=="__main__":
+    main()
+    time.sleep(120)
     
