@@ -51,3 +51,53 @@ DevTools listening on ws://localhost:60561/devtools/browser/dc61a299-6aa2-234a-8
 1639945684589	Marionette	INFO	Stopped listening on port 60566
 JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
 JavaScript error: resource://services-settings/Utils.jsm, line 117: TypeError: NetworkError: Network request failed
+1639945712155	geckodriver	INFO	Listening on 127.0.0.1:60636
+1639945712681	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "60637" "-foreground" "-no-remote" "-profile" "/var/folders/gw/gzn7hks17ms4c3gyyvyknnlm0000gn/T/rust_mozprofilepQ01JF"
+1639945713194	Marionette	INFO	Marionette enabled
+1639945861233	geckodriver	INFO	Listening on 127.0.0.1:60668
+1639945861754	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "60669" "-foreground" "-no-remote" "-profile" "/var/folders/gw/gzn7hks17ms4c3gyyvyknnlm0000gn/T/rust_mozprofileeGLo2Y"
+1639945862235	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/gw/gzn7hks17ms4c3gyyvyknnlm0000gn/T/rust_mozprofileeGLo2Y/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:60669/devtools/browser/251fa537-c7bf-9a44-8c5f-91ccab1b9464
+1639945864689	Marionette	INFO	Listening on port 60674
+1639945864749	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.midhudsonmls.com/include/Modal/subModal.js, line 257: unreachable code after return statement
+JavaScript warning: http://www.midhudsonmls.com/include/inc_SearchCommon.js?ver=1d, line 933: unreachable code after return statement
+JavaScript warning: http://www.midhudsonmls.com/include/inc_SearchCommon.js?ver=1d, line 1646: unreachable code after return statement
+JavaScript warning: http://www.midhudsonmls.com/include/Modal/subModal.js?ver=12, line 257: unreachable code after return statement
+JavaScript warning: http://www.midhudsonmls.com/include/Modal/subModal.js, line 257: unreachable code after return statement
+JavaScript warning: http://www.midhudsonmls.com/include/Modal/subModal.js, line 257: unreachable code after return statement
+JavaScript error: http://www.midhudsonmls.com/include/inc_FormCheck.js?ver=3, line 1313: ReferenceError: replaceChar is not defined
+JavaScript warning: http://www.midhudsonmls.com/include/Modal/subModal.js, line 257: unreachable code after return statement
+1639945883563	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1639945888680	Marionette	INFO	Stopped listening on port 60674
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639945890141	geckodriver	INFO	Listening on 127.0.0.1:60799
+1639945890663	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "60800" "-foreground" "-no-remote" "-profile" "/var/folders/gw/gzn7hks17ms4c3gyyvyknnlm0000gn/T/rust_mozprofiledqxM3Y"
+1639945891165	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/gw/gzn7hks17ms4c3gyyvyknnlm0000gn/T/rust_mozprofiledqxM3Y/search.json.mozlz4", (void 0)))
+1639945892629	geckodriver	INFO	Listening on 127.0.0.1:60828
+1639945893156	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "60829" "-foreground" "-no-remote" "-profile" "/var/folders/gw/gzn7hks17ms4c3gyyvyknnlm0000gn/T/rust_mozprofileKiNeRn"
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:60800/devtools/browser/3ae559d4-e137-764b-9763-cc9c1b227429
+1639945893629	Marionette	INFO	Listening on port 60805
+1639945893694	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639945893771	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/gw/gzn7hks17ms4c3gyyvyknnlm0000gn/T/rust_mozprofileKiNeRn/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/CrashMonitor.jsm, line 201: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+JavaScript warning: http://www.midhudsonmls.com/include/Modal/subModal.js, line 257: unreachable code after return statement
+console.error: SearchService: "maybeReloadEngines failed" ({})
+JavaScript warning: http://www.midhudsonmls.com/include/inc_SearchCommon.js?ver=1d, line 933: unreachable code after return statement
+JavaScript warning: http://www.midhudsonmls.com/include/inc_SearchCommon.js?ver=1d, line 1646: unreachable code after return statement
+JavaScript warning: http://www.midhudsonmls.com/include/Modal/subModal.js?ver=12, line 257: unreachable code after return statement
+1639945902459	Marionette	INFO	Stopped listening on port 60805
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639945903280	geckodriver::marionette	ERROR	Failed to close browser connection: Socket is not connected (os error 57)

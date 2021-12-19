@@ -10,6 +10,5 @@ def main():
     Foreclosed_Properties_MHMLS()
     txtself("Your Foreclosure Report is Ready, Look for an Email")
 
-while True:
-    main()
+main()
     
