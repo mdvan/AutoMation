@@ -15,7 +15,6 @@ decorator==4.4.2
 enum34==1.1.6
 funcsigs==1.0.2
 future==0.18.2
-futures==3.3.0
 huepy==1.2.1
 idna==2.10
 imageio==2.4.1
